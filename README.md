@@ -16,3 +16,6 @@ The tasks can be found in the **Variables** category.
 * **Add value to list**:  Adds a value to a list.
 * **Merge lists**:  Adds one list to another list.
 * **List as markdown**:  Formats the list as markdown for use in descriptions.
+
+## Requirements
+XL Release 4.8.0 or later.
