@@ -18,4 +18,9 @@ The tasks can be found in the **Variables** category.
 * **List as markdown**:  Formats the list as markdown for use in descriptions.
 
 ## Requirements
+
 XL Release 4.8.0 or later.
+
+## Example
+
+Import the template `Variable Manipulation.xlr` and inspect it!
