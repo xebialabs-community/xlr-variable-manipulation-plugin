@@ -10,6 +10,7 @@ The tasks can be found in the **Variables** category.
 * **Get map keys**:  Gets the list of keys from a map.
 * **Get map values**:  Gets the list of values from a map.
 * **Map as markdown table**: Formats the map as a markdown table for use in descriptions.
+* **Merge Maps**: Merges up to `5` key-value maps into a single key-value map.
 
 ## List tasks
 
