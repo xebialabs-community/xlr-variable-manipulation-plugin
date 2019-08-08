@@ -49,6 +49,16 @@
         <property name="result" category="output" kind="list_of_string" description="The first list with the second list added to it."/>
     </type>
 
+    <type type="variables.MapMerge" extends="xlrelease.PythonScript" label="Merge Maps" description="Adds maps to form a single map">
+        <property name="map1" category="input" kind="map_string_string" description="The first map." label="Map 1"/>
+        <property name="map2" category="input" kind="map_string_string" description="The second  map." label="Map 2"/>
+        <property name="map3" category="input" kind="map_string_string" description="The second  map." label="Map 3"/>
+        <property name="map4" category="input" kind="map_string_string" description="The second  map." label="Map 4"/>
+        <property name="map5" category="input" kind="map_string_string" description="The second  map." label="Map 5"/>
+
+        <property name="result" category="output" kind="map_string_string" description="The sum of all maps"/>
+    </type>
+
     <type type="variables.MarkdownList" extends="xlrelease.PythonScript" label="List as markdown" description="Formats the list as markdown for use in descriptions.">
         <property name="list" category="input" kind="list_of_string" description="The list to render." />
         <property name="numbered" category="input" kind="boolean" description="When enabled, renders as numbered list; otherwise as bullet list."/>
